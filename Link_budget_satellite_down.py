@@ -8,7 +8,7 @@ pt_w = float(input("Enter a transmitted power in WATT: "))
 
 # Satellite station
 eff_r = float(input("Enter a receiver efficiency: "))
-teta_3db = float(input("Enter a beam width (theta 3dB) in Degree: "))
+teta_3db = float(input("Enter a beamwidth (theta 3dB) in Degree: "))
 d_km = float(input("Enter a link distance in KM: "))
 d_m = d_km * 1000
 
