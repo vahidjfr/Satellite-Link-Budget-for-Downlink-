@@ -47,3 +47,5 @@ print('The free space loss is:', lfs, '[dBi]')
 print('The received gain is:', gr, '[dBi]')
 
 print('The received power is:', pr, '[dBW]')
+
+print('finish!')
