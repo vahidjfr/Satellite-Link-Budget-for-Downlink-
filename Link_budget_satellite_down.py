@@ -6,15 +6,14 @@ da_t = float(input("Enter a antenna diameter in Meter: "))
 eff_t = float(input("Enter a transmitter efficiency: "))
 pt_w = float(input("Enter a transmitted power in WATT: "))
 
-# Satellite station
 eff_r = float(input("Enter a receiver efficiency: "))
 teta_3db = float(input("Enter a beamwidth (theta 3dB) in Degree: "))
-d_km = float(input("Enter a link distance in KM: "))
+d_km = float(input("Enter a link distance in Km: "))
 d_m = d_km * 1000
 
 # general equation
 pt_dbw = 10 * math.log10(pt_w)
-fc_hz = fc_ghz * (10 ** 9)
+fc_hz = fc_ghz * (10 ** 10)
 c = 299792458
 landa = c / fc_hz
 
